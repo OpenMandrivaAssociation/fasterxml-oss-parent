@@ -1,22 +1,20 @@
 %{?_javapackages_macros:%_javapackages_macros}
 %global oname oss-parent
 Name:          fasterxml-oss-parent
-Version:       11
-Release:       2.0%{?dist}
+Version:       16
+Release:       2.1
+Group:		Development/Java
 Summary:       FasterXML parent pom
 # pom file licenses ASL 2.0 and LGPL 2.1
 License:       ASL 2.0 and LGPLv2+
 URL:           http://fasterxml.com/
 Source0:       https://github.com/FasterXML/oss-parent/archive/oss-parent-%{version}.tar.gz
 
-BuildRequires: java-devel
-
 BuildRequires: maven-local
 BuildRequires: maven-enforcer-plugin
 BuildRequires: maven-plugin-build-helper
 BuildRequires: maven-plugin-bundle
 BuildRequires: maven-site-plugin
-BuildRequires: replacer
 
 BuildArch:     noarch
 
@@ -56,6 +54,18 @@ This package contains the parent pom file for FasterXML.com projects.
 %doc LICENSE NOTICE README.creole
 
 %changelog
+* Wed Jul 02 2014 gil cattaneo <puntogil@libero.it> 16-2
+- remove com.google.code.maven-replacer-plugin:replacer references 
+
+* Wed Jul 02 2014 gil cattaneo <puntogil@libero.it> 16-1
+- update to 16
+
+* Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 11-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
+
+* Wed May 28 2014 Mikolaj Izdebski <mizdebsk@redhat.com> - 11-3
+- Rebuild to regenerate Maven auto-requires
+
 * Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 11-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
@@ -81,3 +91,4 @@ This package contains the parent pom file for FasterXML.com projects.
 
 * Thu Sep 13 2012 gil cattaneo <puntogil@libero.it> 3-1
 - initial rpm
+

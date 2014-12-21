@@ -1,2 +1,4 @@
+removed_sources:
+  oss-parent-11.tar.gz: 0c6df55fa7d7c2c6bd7291faae5758f4f3e0cc4f
 sources:
-  "oss-parent-11.tar.gz": 0c6df55fa7d7c2c6bd7291faae5758f4f3e0cc4f
+  oss-parent-16.tar.gz: 8f81fb8765275f1ea1206b958d9b03d0c28577fc
