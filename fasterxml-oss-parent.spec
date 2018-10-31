@@ -2,7 +2,7 @@
 %global oname oss-parent
 Name:          fasterxml-oss-parent
 Version:       16
-Release:       2.2
+Release:       2.3
 Group:		Development/Java
 Summary:       FasterXML parent pom
 # pom file licenses ASL 2.0 and LGPL 2.1
