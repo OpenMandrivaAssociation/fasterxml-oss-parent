@@ -7,7 +7,7 @@ Group:		Development/Java
 Summary:       FasterXML parent pom
 # pom file licenses ASL 2.0 and LGPL 2.1
 License:       ASL 2.0 and LGPLv2+
-URL:           http://fasterxml.com/
+URL:           https://fasterxml.com/
 Source0:       https://github.com/FasterXML/oss-parent/archive/oss-parent-%{version}.tar.gz
 
 BuildRequires: maven-local
